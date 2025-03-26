@@ -1,0 +1,108 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #007BFF;
+  color: white;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: white;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.service {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+  font-style: italic;
+  background: #e9ecef;
+  padding: 20px;
+  border-left: 5px solid #007BFF;
+  margin: 20px auto;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
